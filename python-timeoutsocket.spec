@@ -6,7 +6,7 @@ Summary:	Timeout Socket Python module
 Summary(pl):	Modu³ Pythona Timeout Socket
 Name:		python-%{module}
 Version:	1.23
-Release:	1
+Release:	2
 License:	distributable
 Group:		Development/Languages/Python
 Source0:	http://www.timo-tasi.org/python/timeoutsocket.py
@@ -42,16 +42,18 @@ EOF
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{py_sitedir}
+install -d $RPM_BUILD_ROOT%{py_sitescriptdir}
 
-install %{SOURCE0} $RPM_BUILD_ROOT%{py_sitedir}
+install %{SOURCE0} $RPM_BUILD_ROOT%{py_sitescriptdir}
 
-%py_comp $RPM_BUILD_ROOT%{py_sitedir}
-%py_ocomp $RPM_BUILD_ROOT%{py_sitedir}
+%py_comp $RPM_BUILD_ROOT%{py_sitescriptdir}
+%py_ocomp $RPM_BUILD_ROOT%{py_sitescriptdir}
+
+rm $RPM_BUILD_ROOT%{py_sitescriptdir}/*.py
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{py_sitedir}/*.py?
+%{py_sitescriptdir}/*.py?
