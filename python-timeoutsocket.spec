@@ -1,6 +1,6 @@
+%include	/usr/lib/rpm/macros.python
 
-%include /usr/lib/rpm/macros.python
-%define module timeoutsocket
+%define		module timeoutsocket
 
 Summary:	Timeout Socket Python module
 Name:		python-%{module}
