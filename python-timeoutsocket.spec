@@ -2,7 +2,7 @@
 %define		module	timeoutsocket
 
 Summary:	Timeout Socket Python module
-Summary(pl):	Modu≥ Pythona Timeout Socket
+Summary(pl.UTF-8):   Modu≈Ç Pythona Timeout Socket
 Name:		python-%{module}
 Version:	1.23
 Release:	3
@@ -22,11 +22,11 @@ does this by inserting a shim into the socket module. After this
 module has been imported, all socket creation goes through this shim.
 As a result, every TCP connection will support a timeout.
 
-%description -l pl
-Ten modu≥ dodaje mechanizm limitu czasowego dla wszystkich po≥±czeÒ
-TCP. Modu≥ robi to poprzez do≥oøenie wk≥adki do modu≥u socket. Po
-zaimportowaniu tego modu≥u, kaøde tworzenie gniazd przechodzi przez tÍ
-wk≥adkÍ. W efekcie kaøde po≥±czenie TCP obs≥uguje limit czasowy.
+%description -l pl.UTF-8
+Ten modu≈Ç dodaje mechanizm limitu czasowego dla wszystkich po≈ÇƒÖcze≈Ñ
+TCP. Modu≈Ç robi to poprzez do≈Ço≈ºenie wk≈Çadki do modu≈Çu socket. Po
+zaimportowaniu tego modu≈Çu, ka≈ºde tworzenie gniazd przechodzi przez tƒô
+wk≈Çadkƒô. W efekcie ka≈ºde po≈ÇƒÖczenie TCP obs≈Çuguje limit czasowy.
 
 %prep
 python <<EOF
