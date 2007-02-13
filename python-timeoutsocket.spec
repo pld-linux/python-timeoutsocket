@@ -2,7 +2,7 @@
 %define		module	timeoutsocket
 
 Summary:	Timeout Socket Python module
-Summary(pl.UTF-8):   Moduł Pythona Timeout Socket
+Summary(pl.UTF-8):	Moduł Pythona Timeout Socket
 Name:		python-%{module}
 Version:	1.23
 Release:	3
