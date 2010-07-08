@@ -5,7 +5,7 @@ Summary:	Timeout Socket Python module
 Summary(pl.UTF-8):	Moduł Pythona Timeout Socket
 Name:		python-%{module}
 Version:	1.23
-Release:	4
+Release:	5
 License:	distributable
 Group:		Development/Languages/Python
 Source0:	http://www.timo-tasi.org/python/timeoutsocket.py
