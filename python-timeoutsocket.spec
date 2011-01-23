@@ -13,6 +13,8 @@ Source0:	http://www.timo-tasi.org/python/timeoutsocket.py
 URL:		http://www.timo-tasi.org/python/
 %pyrequires_eq	python
 BuildRequires:	python
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
